@@ -6,3 +6,56 @@ body{
   padding: 0;
   margin: 0;
 }
+
+.box{
+display: flex;
+flex-direction: column;
+align-items: center;
+gap: 1rem;
+padding: 2rem 0;
+border-bottom: 1px solid;
+}
+
+#button{
+  padding: 1rem 1rem;
+  background-color: black;
+  color: white;
+  border: 1px solid;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.counter{
+  width: 30%;
+  border: 1px solid;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem 0;
+  margin-top: 2rem;
+  background-color: rgb(224, 249, 186);
+}
+
+.aggdim{
+  display: flex;
+  gap: 2rem;
+}
+
+#contatore{
+border: 1px solid;
+padding: 1rem 1rem;
+background-color: greenyellow;
+}
+
+#clicca, #clicco{
+  padding: 0.5rem 0.5rem;
+  border: 1px solid;
+  border-radius: 10px;
+}
+
+#clicca:hover, #clicco:hover{
+  background-color: greenyellow;
+  cursor: pointer;
+}
